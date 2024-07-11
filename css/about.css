@@ -105,14 +105,8 @@ button:hover {
     background-color: #563d7c;
 }
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
 }
 .social-media-section {
     margin-bottom: 20px;
@@ -255,14 +249,8 @@ button:hover {
     background-color: #563d7c;
 }
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
 }
 .social-media-section {
     margin-bottom: 20px;
