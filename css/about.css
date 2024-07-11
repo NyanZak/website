@@ -1,3 +1,5 @@
+@import url('common.css');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,38 +10,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-header {
-    background-color: #6441a5;
-    color: white;
-    padding: 0.5em;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 40px;
-}
-header img {
-    height: 90%;
-    width: auto;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 1em;
-}
-nav ul li {
-    display: inline;
-}
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5em 1em;
-}
-nav ul li a:hover {
-    background-color: #563d7c;
-    border-radius: 5px;
-}
 main {
     flex: 1;
     display: flex;
@@ -49,93 +19,71 @@ main {
     padding: 1em;
     text-align: center;
 }
-
 .about-content {
     display: flex;
     align-items: center;
-    max-width: 850px; /* Set maximum width for the content */
-    margin: 0 auto; /* Center align the content horizontally */
+    max-width: 850px;
+    margin: 0 auto;
 }
-
 .profile-image-container {
-    flex: 0 0 auto; /* This ensures the container doesn't grow or shrink */
-    margin-right: 40px; /* Adjust spacing between image and text */
-    margin-left: -100px; /* Adjust margin to move the image more to the left */
+    flex: 0 0 auto;
+    margin-right: 40px;
+    margin-left: -100px;
 }
-
 .profile-image {
-    max-width: 100%; /* Ensure the image does not exceed its container */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 350px; /* Set maximum height as per your requirement */
-    border-radius: 50%; /* Makes the image circular, adjust as needed */
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+    border-radius: 50%;
 }
-
 .about-text {
-    flex: 1; /* Allow text to take remaining space */
-    text-align: left; /* Adjust text alignment as needed */
+    flex: 1;
+    text-align: left;
 }
-
 .about-text h2 {
-    margin-bottom: 30px; /* Adjust this value as needed */
+    margin-bottom: 30px;
 }
-
 .about-text p {
-    font-size: 18px; /* Adjust this value as needed */
-    line-height: 1.6; /* Adjust this value as needed */
+    font-size: 18px;
+    line-height: 1.6;
 }
-
 .about-section h1 {
-    margin-top: 0.5em; /* Adjust this value as needed */
+    margin-top: 0.5em;
 }
 .about-content {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items vertically */
+    display: flex;
+    align-items: center;
 }
-
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-  }
-
-/* Set a specific color for each brand */
-
-  /* Twitter */
-  .fa-twitter {
+}
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
-
-  /* Twitch */
-  .fa-twitch {
+}
+.fa-twitch {
     background: #6441a5;
     color: white;
-  }
-
-    /* Youtube */
-    .fa-youtube {
-        background: #FF0000;
-        color: white;
-      }
-
-        /* Linkedin */
-  .fa-linkedin {
-    background: #0e76a8 ;
-    color: white;
-  }
-
-    /* Instagram */
-    .fa-instagram {
-        background: #E1306C;
-        color: white;
-      }
-
-h1 {
-    font-size: 2.5em; /* Adjust the font size as needed */
 }
-
+.fa-youtube {
+    background: #FF0000;
+    color: white;
+}
+.fa-linkedin {
+    background: #0e76a8;
+    color: white;
+}
+.fa-instagram {
+    background: #E1306C;
+    color: white;
+}
+h1 {
+    font-size: 2.5em;
+}
 main h1 {
     margin-bottom: 1em;
 }
@@ -161,4 +109,195 @@ footer {
     color: white;
     text-align: center;
     padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+.social-media-section {
+    margin-bottom: 20px;
+}
+.side-by-side-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-right:  300px;
+}
+
+.contact-section {
+    text-align: center; /* Center align the content */
+}
+
+.contact-section h2 {
+    font-size: 2em; /* Increase the font size */
+}
+
+.google-form {
+    flex: 1; /* Ensure it takes up available space */
+    margin-right: 300px; /* Add a margin to move it to the left */
+}
+
+.google-form iframe {
+    width: 200%;
+    height: 800px;
+}
+.google-drive-pdf .pdf-iframe {
+    width: 210%;
+    height: 790px;
+  /*  pointer-events: none; */
+}
+.about-section h1 {
+    font-size: 2.5em; /* Match the font size from index.css */
+    color: white; /* Ensure text color consistency */
+    margin-top: 0.5em; /* Adjust top margin if necessary */
+}body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    text-align: center;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.profile-image-container {
+    flex: 0 0 auto;
+    margin-right: 40px;
+    margin-left: -100px;
+}
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+    border-radius: 50%;
+}
+.about-text {
+    flex: 1;
+    text-align: left;
+}
+.about-text h2 {
+    margin-bottom: 30px;
+}
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.about-section h1 {
+    margin-top: 0.5em;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-twitch {
+    background: #6441a5;
+    color: white;
+}
+.fa-youtube {
+    background: #FF0000;
+    color: white;
+}
+.fa-linkedin {
+    background: #0e76a8;
+    color: white;
+}
+.fa-instagram {
+    background: #E1306C;
+    color: white;
+}
+h1 {
+    font-size: 2.5em;
+}
+main h1 {
+    margin-bottom: 1em;
+}
+iframe {
+    width: 560px;
+    height: 315px;
+    margin-bottom: 1em;
+}
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #6441a5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #563d7c;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+.social-media-section {
+    margin-bottom: 20px;
+}
+.side-by-side-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-right:  300px;
+}
+
+.contact-section {
+    text-align: center; /* Center align the content */
+}
+
+.contact-section h2 {
+    font-size: 2em; /* Increase the font size */
+}
+
+.google-form {
+    flex: 1; /* Ensure it takes up available space */
+    margin-right: 300px; /* Add a margin to move it to the left */
+}
+
+.google-form iframe {
+    width: 200%;
+    height: 800px;
+}
+.google-drive-pdf .pdf-iframe {
+    width: 210%;
+    height: 790px;
+  /*  pointer-events: none; */
+}
+.about-section h1 {
+    font-size: 2.5em; /* Match the font size from index.css */
+    color: white; /* Ensure text color consistency */
+    margin-top: 0.5em; /* Adjust top margin if necessary */
 }
