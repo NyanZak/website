@@ -253,12 +253,13 @@ footer {
     padding: 1em;
 }
 .social-media-section {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    margin-top: -25px;
 }
 .side-by-side-container {
     display: flex;
     justify-content: space-between;
-    gap: 150px;
+    gap: 120px;
     margin-right:  300px;
 }
 
@@ -276,13 +277,14 @@ footer {
 }
 
 .google-form iframe {
+    transform:  scale(0.95);
     width: 200%;
-    height: 800px;
+    height: 780px;
 }
 .google-drive-pdf .pdf-iframe {
-    width: 210%;
-    height: 790px;
-  /*  pointer-events: none; */
+    transform:  scale(0.95);
+    width: 200%;
+    height: 780px;
 }
 .about-section h1 {
     font-size: 2.5em; /* Match the font size from index.css */
