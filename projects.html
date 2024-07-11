@@ -11,23 +11,46 @@
         <img src="images/Signature.png" alt="Logo">
         <nav>
             <ul>
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="projects.html" class="nav-link">Projects</a></li>
-                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="content-container">
-            <h1>Zak Cronin</h1>
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/1JXn4qW73sc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <main class="projects-main">
+        <h1>Projects</h1> <!-- Move the heading outside of projects-section -->
+        
+        <section class="projects-section">
+            <div class="project-gallery">
+                <div class="project-item">
+                    <img src="images/game1.png" alt="Game 1">
+                    <button onclick="window.location.href='game1.html'">Pong Recharged - 2023</button>
+                </div>
+                <div class="project-item">
+                    <img src="images/game2.png" alt="Game 2">
+                    <button onclick="window.location.href='game2.html'">Katie's Story - 2023</button>
+                </div>
+                <div class="project-item">
+                    <img src="images/game3.png" alt="Game 3">
+                    <button onclick="window.location.href='game3.html'">Rush Devour - 2022</button>
+                </div>
+                <div class="project-item">
+                    <img src="images/game4.png" alt="Game 4">
+                    <button onclick="window.location.href='game4.html'">Not A Drill - 2022</button>
+                </div>
+                <div class="project-item">
+                    <img src="images/game5.png" alt="Game 5">
+                    <button onclick="window.location.href='game5.html'">Within Bastet's Cavern - 2021 </button>
+                </div>
+                <div class="project-item">
+                    <img src="images/game6.png" alt="Game 6">
+                    <button onclick="window.location.href='game6.html'">Eggpunk Escape - 2020</button>
+                </div>
             </div>
-            <div class="button-container">
-                <button onclick="window.location.href='#about'">About Me</button>
-            </div>
-        </div>
+        </section>
     </main>
+    
     <footer>
         <p>&copy; 2024 Zak Cronin. All rights reserved.</p>
     </footer>
