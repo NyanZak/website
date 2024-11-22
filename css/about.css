@@ -597,14 +597,14 @@ footer {
     .about-text {
         text-align: center; /* Center align text for better readability */
         margin-top: 20px; /* Add spacing between image and text */
-        font-size: 16px; /* Adjust font size for smaller screens */
+        font-size: 2px; /* Adjust font size for smaller screens */
     }
     .about-text h2 {
-        font-size: 20px; /* Smaller size for heading */
+        font-size: 2px; /* Smaller size for heading */
     }
 
     .about-text p {
-        font-size: 10px; /* Smaller size for paragraph text */
+        font-size: 2px; /* Smaller size for paragraph text */
         line-height: 1.4; /* Adjust line height for better readability */
     }
 }
