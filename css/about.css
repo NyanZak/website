@@ -66,19 +66,18 @@ main {
     color: white;
 }
 .fa-twitch {
-    background: #6441a5;
     color: white;
 }
 .fa-youtube {
-    background: #FF0000;
     color: white;
 }
 .fa-linkedin {
-    background: #0e76a8;
     color: white;
 }
 .fa-instagram {
-    background: #E1306C;
+    color: white;
+}
+.fa-github {
     color: white;
 }
 h1 {
