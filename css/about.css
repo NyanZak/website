@@ -186,14 +186,24 @@ main h1 {
 
 }
 
+.embeds-container {
+    display: flex;
+    gap: 20px; /* Adds space between the embeds */
+    justify-content: center; /* Center them horizontally */
+    flex-wrap: wrap; /* Ensure they stack on smaller screens */
+    margin-top: 20px;
+}
+
+.embed-item {
+    flex: 1;
+    min-width: 300px; /* Set a minimum width for the embeds */
+}
+
+
 iframe {
-
-    width: 560px;
-
-    height: 315px;
-
-    margin-bottom: 1em;
-
+    width: 100%;
+    height: 500px;
+    border: none;
 }
 
 button {
@@ -228,19 +238,6 @@ footer {
 
 }
 
-.side-by-side-container {
-
-    display: flex;
-
-    justify-content: space-between;
-
-    gap: 150px;
-
-    margin-right:  300px;
-
-}
-
-
 
 .contact-section {
 
@@ -256,35 +253,6 @@ footer {
 
 }
 
-
-
-.google-form {
-
-    flex: 1; /* Ensure it takes up available space */
-
-    margin-right: 300px; /* Add a margin to move it to the left */
-
-}
-
-
-
-.google-form iframe {
-
-    width: 200%;
-
-    height: 800px;
-
-}
-
-.google-drive-pdf .pdf-iframe {
-
-    width: 210%;
-
-    height: 790px;
-
-  /*  pointer-events: none; */
-
-}
 
 .about-section h1 {
 
@@ -480,16 +448,6 @@ main h1 {
 
 }
 
-iframe {
-
-    width: 560px;
-
-    height: 315px;
-
-    margin-bottom: 1em;
-
-}
-
 button {
 
     padding: 10px 20px;
@@ -522,18 +480,6 @@ footer {
 
 }
 
-.side-by-side-container {
-
-    display: flex;
-
-    justify-content: space-between;
-
-    gap: 150px;
-
-    margin-right:  300px;
-
-}
-
 .contact-section {
 
     text-align: center; /* Center align the content */
@@ -546,38 +492,6 @@ footer {
 
 }
 
-.google-form {
-
-    flex: 1; /* Ensure it takes up available space */
-
-    margin-right: 300px; /* Add a margin to move it to the left */
-
-}
-
-.embed-wrapper {
-    display: flex; /* Arrange children in a row */
-    justify-content: space-between; /* Add space between embeds */
-    flex-wrap: wrap; /* Allow wrapping on small screens */
-    gap: 20px; /* Add spacing between elements */
-}
-
-/* Style for the iframes */
-.google-form iframe{
-    flex: 1; /* Let each iframe take equal space */
-    min-width: 300px; /* Prevent shrinking too small */
-    max-width: 48%; /* Each iframe should take up to 48% of the width */
-    height: 600px; /* Set a default height */
-    border: none; /* Remove borders */
-}
-
-.google-drive-pdf .pdf-iframe {
-    width: 100%;
-    height: 80vh; /* Constrain height to 80% of the viewport */
-    max-height: 800px; /* Limit height to a reasonable size for PC */
-    border: none;
-}
-
-
 .about-section h1 {
 
     font-size: 2.5em; /* Match the font size from index.css */
@@ -587,24 +501,6 @@ footer {
     margin-top: 0.5em; /* Adjust top margin if necessary */
 
 }
-
-.pdf-container {
-    width: 100%; /* Takes full width of its container */
-    max-width: 800px; /* Set a max width to prevent overexpansion */
-    height: 0;
-    padding-bottom: 75%; /* Maintain aspect ratio (adjust as needed) */
-    position: relative; /* Required for absolutely positioning the child */
-}
-
-.pdf-container object {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
 
 @media (max-width: 600px) {
     .about-content {
@@ -636,33 +532,13 @@ footer {
         font-size: 16px; /* Smaller size for paragraph text */
         line-height: 1.4; /* Adjust line height for better readability */
     }
-
-    .embed-wrapper{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .google-form iframe
-    {
-        width: 90%; /* Take up most of the screen width */
-        max-width: 100%; /* Ensure it doesn’t overflow */
-        height: auto; /* Scale height proportionally */
-        min-height: 400px; /* Maintain readability */
-    }
-    
-    .google-drive-pdf iframe {
-        width: 90%; /* Take up most of the screen width */
-        max-width: 100%; /* Ensure it doesn’t overflow */
-        height: auto; /* Scale height proportionally */
-        min-height: 400px; /* Maintain readability */
-    }
-
     .social-icons i {
         font-size: 2rem !important;
         margin: 0 5px !important;
     }
 
-    .pdf-container {
-        padding-bottom: 100%; /* Adjust for taller aspect ratio on mobile */
+    .embeds-container {
+        flex-direction: column; /* Stack the embeds vertically on small screens */
+        gap: 10px; /* Reduce the gap between them */
     }
 }
