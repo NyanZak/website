@@ -612,4 +612,18 @@ footer {
         font-size: 16px; /* Smaller size for paragraph text */
         line-height: 1.4; /* Adjust line height for better readability */
     }
-}
+
+    @media (max-width: 600px) {
+        .side-by-side-container {
+            flex-direction: column; /* Stack elements vertically */
+            gap: 20px; /* Add spacing between stacked elements */
+            margin: 0; /* Reset margins */
+        }
+    
+        .google-form iframe,
+        .google-drive-pdf .pdf-iframe {
+            width: 100%; /* Let the iframe fill the available width */
+            height: 500px; /* Adjust height to maintain visibility */
+        }
+    }   
+}   
