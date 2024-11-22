@@ -620,10 +620,17 @@ footer {
             margin: 0; /* Reset margins */
         }
     
-        .google-form iframe,
         .google-drive-pdf .pdf-iframe {
             width: 100%; /* Let the iframe fill the available width */
             height: 500px; /* Adjust height to maintain visibility */
+        }
+        .google-form iframe{
+            width: 600px;
+        }
+        .fa {
+            font-size: 20px; /* Smaller font size for icons */
+            padding: 10px; /* Adjust padding for smaller icons */
+            width: 40px; /* Smaller icon width */
         }
     }   
 }   
