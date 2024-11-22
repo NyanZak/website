@@ -562,13 +562,19 @@ footer {
 }
 
 /* Style for the iframes */
-.google-form iframe,
-.google-drive-pdf iframe {
+.google-form iframe{
     flex: 1; /* Let each iframe take equal space */
     min-width: 300px; /* Prevent shrinking too small */
     max-width: 48%; /* Each iframe should take up to 48% of the width */
     height: 600px; /* Set a default height */
     border: none; /* Remove borders */
+}
+
+.google-drive-pdf .pdf-iframe {
+    width: 100%; /* Adjusts to fit the container */
+    height: calc(100vw * 0.75); /* Adjust height dynamically based on viewport width, assuming a 4:3 aspect ratio */
+    max-height: 100%; /* Prevents it from exceeding the viewport height */
+    border: none; /* Optional: to remove any border */
 }
 
 .about-section h1 {
