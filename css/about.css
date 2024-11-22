@@ -553,4 +553,8 @@ footer {
     .pdf-iframe {
         height: 50vh;  /* Make the PDF iframe a little smaller on mobile */
     }
+
+    .embed-item iframe[src*="google.com/forms"] {
+        height: 80vh;  /* Increase the height of the contact form */
+    }
 }
