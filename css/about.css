@@ -114,8 +114,13 @@ footer {
     padding: 1em;
 }
 .social-media-section {
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reduce space below the section */
 }
+
+.social-icons {
+    margin-bottom: 10px; /* Reduce space below the icons */
+}
+
 .side-by-side-container {
     display: flex;
     justify-content: space-between;
