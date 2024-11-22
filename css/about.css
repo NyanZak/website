@@ -594,6 +594,11 @@ footer {
         margin: 0; /* Reset margins for better alignment */
     }
 
+    .profile-image {
+        max-width: 150px; /* Scale the width down */
+        max-height: 150px; /* Ensure height scales proportionally */
+    }
+
     .about-text {
         text-align: center; /* Center align text for better readability */
         margin-top: 20px; /* Add spacing between image and text */
