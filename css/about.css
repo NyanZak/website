@@ -630,22 +630,13 @@ footer {
         height: auto; /* Scale height proportionally */
         min-height: 400px; /* Maintain readability */
     }
-
-    .google-drive-pdf {
-        position: relative;
-        padding-top: 75%; /* Aspect ratio: 4:3 (adjust as needed) */
-        height: 0;
-        overflow: hidden;
+    
+    .google-drive-pdf iframe {
+        width: 90%; /* Take up most of the screen width */
+        max-width: 100%; /* Ensure it doesn’t overflow */
+        height: auto; /* Scale height proportionally */
+        min-height: 400px; /* Maintain readability */
     }
-
-    .google-drive-pdf .pdf-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
 
     .social-icons i {
         font-size: 2rem !important;
