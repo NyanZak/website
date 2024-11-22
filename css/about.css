@@ -342,6 +342,8 @@ main {
 
     margin: 0 auto;
 
+    flex-wrap: wrap;
+
 }
 
 .profile-image-container {
@@ -351,6 +353,8 @@ main {
     margin-right: 40px;
 
     margin-left: -100px;
+
+    text-align: center;
 
 }
 
@@ -578,4 +582,20 @@ footer {
 
     margin-top: 0.5em; /* Adjust top margin if necessary */
 
+}
+@media (max-width: 600px) {
+    .about-content {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align both elements */
+        text-align: center; /* Center align text */
+    }
+
+    .profile-image-container {
+        margin: 0; /* Reset margins for better alignment */
+    }
+
+    .about-text {
+        text-align: center; /* Center align text for better readability */
+        margin-top: 20px; /* Add spacing between image and text */
+    }
 }
