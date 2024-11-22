@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="../images/Signature.png" alt="Logo" class="logo">
+        <img src="../images/Signature.png" alt="Logo">
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -19,7 +19,6 @@
             </ul>
         </nav>        
     </header>
-
     <main class="about-main">
         <section class="about-section">
             <h1>About</h1>
@@ -35,13 +34,13 @@
         </section>
         
         <section class="contact-section" id="contact-section">
-            <h2>Contact Me</h2>
+         <h2>Contact Me</h2>
             <div class="side-by-side-container">
                 <div class="google-form">
-                    <iframe src="https://forms.gle/jm3C1xsjEE2Y6ox2A" title="Contact Form" frameborder="0" marginheight="0" marginwidth="0" class="form-iframe">Loading...</iframe>
+                    <iframe src="https://forms.gle/jm3C1xsjEE2Y6ox2A" frameborder="0" marginheight="0" marginwidth="0" class="form-iframe">Loading...</iframe>
                 </div>
                 <div class="google-drive-pdf">
-                    <iframe src="https://drive.google.com/file/d/13NqYJxsefmvohvhwJ5wohXNgVmlLcf5W/preview" title="My PDF" class="pdf-iframe"></iframe>
+                    <iframe src="https://drive.google.com/file/d/13NqYJxsefmvohvhwJ5wohXNgVmlLcf5W/preview" class="pdf-iframe"></iframe>
                 </div>
             </div>
         </section>
@@ -49,17 +48,44 @@
         <section class="social-media-section" id="social-media">
             <h2>Follow Me</h2>
             <div class="social-icons">
-                <a href="https://x.com/NyanZak_" class="social-icon" aria-label="Twitter" role="link"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://bsky.app/profile/nyanzak.com" class="social-icon" aria-label="Bluesky" role="link"><i class="fa-brands fa-bluesky"></i></a>
-                <a href="https://www.youtube.com/nyanzak" class="social-icon" aria-label="YouTube" role="link"><i class="fa-brands fa-youtube"></i></a>
-                <a href="https://www.twitch.tv/nyanzak" class="social-icon" aria-label="Twitch" role="link"><i class="fa-brands fa-twitch"></i></a>
-                <a href="https://www.instagram.com/nyanzak/" class="social-icon" aria-label="Instagram" role="link"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://open.spotify.com/user/jgv8a73doly3kj9xqnp8j9cdx" class="social-icon" aria-label="Spotify" role="link"><i class="fa-brands fa-spotify"></i></a>
-                <a href="https://github.com/NyanZak" class="social-icon" aria-label="GitHub" role="link"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/NyanZak_"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://bsky.app/profile/nyanzak.com"><i class="fa-brands fa-bluesky"></i></a>
+                <a href="https://www.youtube.com/nyanzak"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.twitch.tv/nyanzak"><i class="fa-brands fa-twitch"></i></a>
+                <a href="https://www.instagram.com/nyanzak/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://open.spotify.com/user/jgv8a73doly3kj9xqnp8j9cdx"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://github.com/NyanZak"><i class="fa-brands fa-github"></i></a>
+
             </div>
         </section>
+        <style>
+            .social-icons a {
+                text-decoration: none; /* Removes underline */
+            }
+            .social-icons i {
+                font-size: 4rem;
+                margin: 0 10px;
+            }
+            .social-icons a[href*="x.com"] i {
+             color: #ffffff;
+            }
+            .social-icons a[href*="bsky.app"] i {
+             color: #1185FE;
+            }
+            .social-icons a[href*="youtube.com"] i {
+             color: #FF0033;
+            }
+            .social-icons a[href*="twitch.tv"] i {
+             color: #9146FF;
+            }
+            .social-icons a[href*="instagram.com"] i {
+             color: #BC26AA;
+            }
+            .social-icons a[href*="spotify.com"] i {
+             color: #1ED760;
+            }
+        </style>
     </main>
-
     <footer>
         <p>&copy; 2024 Zak Cronin. All rights reserved.</p>
     </footer>
