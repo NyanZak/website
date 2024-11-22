@@ -628,7 +628,7 @@ footer {
             width: 600px;
         }
         .social-icons i {
-            font-size: 2rem;
+            font-size: 2rem !important;
             margin: 0 10px;
         }
     }   
