@@ -39,9 +39,16 @@
                 <div class="google-form">
                     <iframe src="https://forms.gle/jm3C1xsjEE2Y6ox2A" frameborder="0" class="form-iframe">Loading...</iframe>
                 </div>
-                <div class="google-drive-pdf">
-                    <iframe src="https://drive.google.com/file/d/13NqYJxsefmvohvhwJ5wohXNgVmlLcf5W/preview" class="pdf-iframe"></iframe>
-                </div>
+                <div class="pdf-container">
+                    <object data="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" 
+                            type="application/pdf" 
+                            style="width: 100%; height: 100%;">
+                        <p>
+                            Your browser does not support PDFs. 
+                            <a href="https://drive.google.com/file/d/YOUR_FILE_ID/view" target="_blank">Click here to download the PDF</a>.
+                        </p>
+                    </object>
+                </div>                
             </div>
         </section>
         
