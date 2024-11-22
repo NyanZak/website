@@ -627,5 +627,9 @@ footer {
         .google-form iframe{
             width: 600px;
         }
+        .social-icons i {
+            font-size: 2rem;
+            margin: 0 10px;
+        }
     }   
 }   
