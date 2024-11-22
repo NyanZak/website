@@ -296,3 +296,9 @@ footer {
         margin: 0 5px;   /* Adjust margin for spacing */
     }
 }
+@media screen and (max-width: 768px) {
+    body {
+        background-color: red; /* Temporary test */
+    }
+}
+
