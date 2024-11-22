@@ -200,6 +200,14 @@ main {
     display: flex;
     align-items: center;
 }
+.social-media-section {
+    margin-bottom: 10px; /* Reduce space below the section */
+}
+
+.social-icons {
+    margin-bottom: 10px; /* Reduce space below the icons */
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
