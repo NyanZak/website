@@ -619,11 +619,7 @@ footer {
         gap: 20px; /* Add spacing between stacked elements */
         margin: 0; /* Reset margins */
     }
-
-    .google-drive-pdf .pdf-iframe {
-        width: 100%; /* Let the iframe fill the available width */
-    }
-
+    
     .google-form iframe{
         width: 600px;
     }
