@@ -282,12 +282,12 @@ footer {
 }
 @media screen and (max-width: 768px) {
     .social-icons i {
-        font-size: var(--fa-sm);
+        font-size: var(--fa-xs);
     }
 }
 
 @media screen and (max-width: 480px) {
     .social-icons i {
-        font-size: var(--fa-xs);
+        font-size: var(--fa-2xs);
     }
 }
