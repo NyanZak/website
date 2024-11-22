@@ -54,6 +54,13 @@ main {
     display: flex;
     align-items: center;
 }
+.social-media-section h2 {
+    margin-bottom: 40px; /* Adjust this value to increase spacing */
+}
+
+.social-icons {
+    margin-top: 10px; /* Additional fine-tuning if needed */
+}
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -246,28 +253,22 @@ footer {
     text-align: center;
     padding: 1em;
 }
-.social-media-section {
-}
 .side-by-side-container {
     display: flex;
     justify-content: space-between;
     gap: 120px;
     margin-right:  300px;
 }
-
 .contact-section {
     text-align: center; /* Center align the content */
 }
-
 .contact-section h2 {
     font-size: 2em; /* Increase the font size */
 }
-
 .google-form {
     flex: 1; /* Ensure it takes up available space */
     margin-right: 300px; /* Add a margin to move it to the left */
 }
-
 .google-form iframe {
     transform:  scale(0.95);
     width: 200%;
