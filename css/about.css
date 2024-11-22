@@ -200,13 +200,14 @@ main {
     display: flex;
     align-items: center;
 }
-.social-media-section {
-    margin-bottom: 20px; /* Reduce space below the section */
+.social-media-section h2 {
+    margin-bottom: 40px; /* Larger space */
 }
 
 .social-icons {
-    margin-bottom: 20px; /* Reduce space below the icons */
+    margin-top: 20px; /* Additional fine-tuned space */
 }
+
 
 .fa {
     padding: 20px;
