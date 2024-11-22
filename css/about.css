@@ -55,10 +55,10 @@ main {
     align-items: center;
 }
 .social-media-section h2 {
-    margin-bottom: 20px; /* Adjust spacing below heading */
+    margin-bottom: 40px; /* Larger space */
 }
 .social-icons {
-    margin-top: 20px; /* Ensure enough spacing above the icons */
+    margin-top: 20px; /* Additional fine-tuned space */
 }
 .fa {
     padding: 20px;
@@ -200,15 +200,6 @@ main {
     display: flex;
     align-items: center;
 }
-.social-media-section h2 {
-    margin-bottom: 40px; /* Larger space */
-}
-
-.social-icons {
-    margin-top: 20px; /* Additional fine-tuned space */
-}
-
-
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -289,16 +280,25 @@ footer {
     color: white; /* Ensure text color consistency */
     margin-top: 0.5em; /* Adjust top margin if necessary */
 }
+.social-icons i {
+    font-size: calc(3vw + 1rem); /* Dynamically adjust font size based on viewport width */
+    margin: 0 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: auto; /* Ensure the icon maintains its responsive size */
+}
+
 @media screen and (max-width: 768px) {
     .social-icons i {
-        font-size: 10rem !important; /* Smaller size for mobile */
-        padding: 10px;   /* Reduced padding for spacing */
-        margin: 0 5px;   /* Adjust margin for spacing */
-    }
-}
-@media screen and (max-width: 768px) {
-    body {
-        background-color: red; /* Temporary test */
+        font-size: calc(5vw + 0.5rem); /* Adjust for smaller screens */
     }
 }
 
+@media screen and (max-width: 480px) {
+    .social-icons i {
+        font-size: calc(6vw + 0.5rem); /* Further adjust for very small screens */
+        margin: 0 5px; /* Reduce spacing */
+    }
+}
