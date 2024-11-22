@@ -1,588 +1,225 @@
-@import url('common.css');
-
-
-
+/* Base Styles */
 body {
-
     font-family: Arial, sans-serif;
-
     margin: 0;
-
     padding: 0;
-
     background-color: #000000;
-
     color: white;
-
     display: flex;
-
     flex-direction: column;
-
     min-height: 100vh;
-
 }
 
 main {
-
     flex: 1;
-
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
-
     justify-content: center;
-
     padding: 1em;
-
     text-align: center;
-
 }
 
 .about-content {
-
     display: flex;
-
     align-items: center;
-
     max-width: 850px;
-
     margin: 0 auto;
-
 }
 
 .profile-image-container {
-
     flex: 0 0 auto;
-
     margin-right: 40px;
-
     margin-left: -100px;
-
 }
 
 .profile-image {
-
     max-width: 100%;
-
     height: auto;
-
     max-height: 350px;
-
     border-radius: 50%;
-
 }
 
 .about-text {
-
     flex: 1;
-
     text-align: left;
-
 }
 
 .about-text h2 {
-
     margin-bottom: 30px;
-
 }
 
 .about-text p {
-
     font-size: 18px;
-
     line-height: 1.6;
-
 }
 
 .about-section h1 {
-
     margin-top: 0.5em;
-
 }
 
 .about-content {
-
     display: flex;
-
     align-items: center;
-
 }
 
 .social-media-section h2 {
-
     margin-bottom: 20px; /* Adjust spacing below heading */
-
 }
 
 .social-icons {
-
     margin-top: 20px; /* Ensure enough spacing above the icons */
-
 }
 
 .fa {
-
     padding: 20px;
-
     font-size: 30px;
-
     width: 50px;
-
     text-align: center;
-
     text-decoration: none;
-
 }
 
 .fa-twitter {
-
     background: #55ACEE;
-
     color: white;
-
 }
 
 .fa-twitch {
-
     color: white;
-
 }
 
 .fa-youtube {
-
     color: white;
-
 }
 
 .fa-linkedin {
-
     color: white;
-
 }
 
 .fa-instagram {
-
     color: white;
-
 }
 
 .fa-github {
-
     color: white;
-
 }
 
 h1 {
-
     font-size: 2.5em;
-
 }
 
 main h1 {
-
     margin-bottom: 1em;
-
 }
 
 iframe {
-
-    width: 560px;
-
-    height: 315px;
-
-    margin-bottom: 1em;
-
-}
-
-button {
-
-    padding: 10px 20px;
-
-    font-size: 1em;
-
-    background-color: #6441a5;
-
-    color: white;
-
-    border: none;
-
-    border-radius: 5px;
-
-    cursor: pointer;
-
-}
-
-button:hover {
-
-    background-color: #563d7c;
-
-}
-
-footer {
-
-    text-align: center;
-
-    padding: 1em;
-
-}
-
-.side-by-side-container {
-
-    display: flex;
-
-    justify-content: space-between;
-
-    gap: 150px;
-
-    margin-right:  300px;
-
-}
-
-
-
-.contact-section {
-
-    text-align: center; /* Center align the content */
-
-}
-
-
-
-.contact-section h2 {
-
-    font-size: 2em; /* Increase the font size */
-
-}
-
-
-
-.google-form {
-
-    flex: 1; /* Ensure it takes up available space */
-
-    margin-right: 300px; /* Add a margin to move it to the left */
-
-}
-
-
-
-.google-form iframe {
-
-    width: 200%;
-
-    height: 800px;
-
-}
-
-.google-drive-pdf .pdf-iframe {
-
-    width: 210%;
-
-    height: 790px;
-
-  /*  pointer-events: none; */
-
-}
-
-.about-section h1 {
-
-    font-size: 2.5em; /* Match the font size from index.css */
-
-    color: white; /* Ensure text color consistency */
-
-    margin-top: 0.5em; /* Adjust top margin if necessary */
-
-}body {
-
-    font-family: Arial, sans-serif;
-
-    margin: 0;
-
-    padding: 0;
-
-    background-color: #000000;
-
-    color: white;
-
-    display: flex;
-
-    flex-direction: column;
-
-    min-height: 100vh;
-
-}
-
-main {
-
-    flex: 1;
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: center;
-
-    justify-content: center;
-
-    padding: 1em;
-
-    text-align: center;
-
-}
-
-.about-content {
-
-    display: flex;
-
-    align-items: center;
-
-    max-width: 850px;
-
-    margin: 0 auto;
-
-    flex-wrap: wrap;
-
-}
-
-.profile-image-container {
-
-    flex: 0 0 auto;
-
-    margin-right: 40px;
-
-    margin-left: -100px;
-
-    text-align: center;
-
-}
-
-.profile-image {
-
     max-width: 100%;
-
+    width: 100%;
     height: auto;
-
-    max-height: 350px;
-
-    border-radius: 50%;
-
-}
-
-.about-text {
-
-    flex: 1;
-
-    text-align: left;
-
-}
-
-.about-text h2 {
-
-    margin-bottom: 30px;
-
-}
-
-.about-text p {
-
-    font-size: 18px;
-
-    line-height: 1.6;
-
-}
-
-.about-section h1 {
-
-    margin-top: 0.5em;
-
-}
-
-.about-content {
-
-    display: flex;
-
-    align-items: center;
-
-}
-
-.social-media-section h2 {
-
-    margin-bottom: 40px; /* Larger space */
-
-}
-
-
-
-.social-icons {
-
-    margin-top: 20px; /* Additional fine-tuned space */
-
-}
-
-
-
-
-
-.fa {
-
-    padding: 20px;
-
-    font-size: 30px;
-
-    width: 50px;
-
-    text-align: center;
-
-    text-decoration: none;
-
-}
-
-.fa-twitter {
-
-    color: white;
-
-}
-
-.fa-twitch {
-
-    color: white;
-
-}
-
-.fa-youtube {
-
-    color: white;
-
-}
-
-.fa-linkedin {
-
-    color: white;
-
-}
-
-.fa-instagram {
-
-    color: white;
-
-}
-
-h1 {
-
-    font-size: 2.5em;
-
-}
-
-main h1 {
-
-    margin-bottom: 1em;
-
-}
-
-iframe {
-
-    width: 560px;
-
-    height: 315px;
-
-    margin-bottom: 1em;
-
+    border: none;
 }
 
 button {
-
     padding: 10px 20px;
-
     font-size: 1em;
-
     background-color: #6441a5;
-
     color: white;
-
     border: none;
-
     border-radius: 5px;
-
     cursor: pointer;
-
 }
 
 button:hover {
-
     background-color: #563d7c;
-
 }
 
 footer {
-
     text-align: center;
-
     padding: 1em;
-
 }
 
 .side-by-side-container {
-
     display: flex;
-
     justify-content: space-between;
-
-    gap: 120px;
-
+    gap: 150px;
     margin-right:  300px;
-
 }
 
 .contact-section {
-
     text-align: center; /* Center align the content */
-
 }
 
 .contact-section h2 {
-
     font-size: 2em; /* Increase the font size */
-
 }
 
 .google-form {
-
     flex: 1; /* Ensure it takes up available space */
-
     margin-right: 300px; /* Add a margin to move it to the left */
-
 }
 
 .google-form iframe {
-
-    transform:  scale(0.95);
-
     width: 200%;
-
-    height: 780px;
-
+    height: 800px;
 }
 
 .google-drive-pdf .pdf-iframe {
-
-    transform:  scale(0.95);
-
-    width: 200%;
-
-    height: 780px;
-
+    width: 210%;
+    height: 790px;
 }
 
 .about-section h1 {
-
     font-size: 2.5em; /* Match the font size from index.css */
-
     color: white; /* Ensure text color consistency */
-
     margin-top: 0.5em; /* Adjust top margin if necessary */
-
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+}
+
+header {
+    background-color: #6441a5;
+    color: white;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+header img {
+    height: 90%;
+    width: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+nav ul li a:hover {
+    background-color: #563d7c;
+    border-radius: 5px;
+}
+
+/* Media Queries for Smaller Screens */
+
+/* Google Form and PDF scaling */
 @media (max-width: 600px) {
     .about-content {
         flex-direction: column; /* Stack elements vertically */
@@ -595,8 +232,8 @@ footer {
     }
 
     .profile-image {
-        max-width: 200px; /* Scale the width down */
-        max-height: 200px; /* Ensure height scales proportionally */
+        max-width: 150px; /* Scale the width down */
+        max-height: 150px; /* Ensure height scales proportionally */
     }
 
     .about-text {
@@ -604,26 +241,32 @@ footer {
         margin-top: 20px; /* Add spacing between image and text */
         font-size: 16px; /* Adjust font size for smaller screens */
     }
+
     .about-text h2 {
         font-size: 20px; /* Smaller size for heading */
     }
 
     .about-text p {
-        font-size: 16px; /* Smaller size for paragraph text */
+        font-size: 14px; /* Smaller size for paragraph text */
         line-height: 1.4; /* Adjust line height for better readability */
     }
 
-    @media (max-width: 600px) {
-        .side-by-side-container {
-            flex-direction: column; /* Stack elements vertically */
-            gap: 20px; /* Add spacing between stacked elements */
-            margin: 0; /* Reset margins */
-        }
-    
-        .google-form iframe,
-        .google-drive-pdf .pdf-iframe {
-            width: 100%; /* Let the iframe fill the available width */
-            height: 500px; /* Adjust height to maintain visibility */
-        }
-    }   
-}   
+    /* Adjust the side-by-side container for smaller screens */
+    .side-by-side-container {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 20px; /* Add spacing between stacked elements */
+        margin: 0; /* Reset margins */
+    }
+
+    .google-form iframe,
+    .google-drive-pdf .pdf-iframe {
+        width: 100%; /* Let the iframe fill the available width */
+        height: 500px; /* Adjust height to maintain visibility */
+        min-height: 500px; /* Ensure the iframe has a minimum height */
+    }
+
+    /* Ensure the Google Form iframe specifically behaves responsively */
+    .google-form iframe {
+        height: 600px; /* Adjust to a fixed height to prevent it from appearing too thin */
+    }
+}
