@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn more about NyanZak, his skills, and expertise in game development.">
     <title>About</title>
+    <meta name="description" content="Learn more about NyanZak, his skills, and expertise in game development.">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <img src="../images/Signature.png" alt="Zak's Logo">
+        <img src="../images/Signature.png" alt="Logo">
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -19,26 +19,25 @@
             </ul>
         </nav>        
     </header>
-
     <main class="about-main">
         <section class="about-section">
-            <h1>About Me</h1>
+            <h1>About</h1>
             <div class="about-content">
                 <div class="profile-image-container">
-                    <img src="../images/NyanCatCircle.png" alt="Zak's Profile Image" class="profile-image">
+                    <img src="../images/NyanCatCircle.png" alt="Profile Image" class="profile-image">
                 </div>
                 <div class="about-text">
                     <h2>Hello!</h2>
-                    <p>I am Zak, a Games Design and Development graduate from LSBU. My primary focus is on PC gaming, though I also enjoy console games. FPS shooters are my favorite genre, and I regularly stream and record gameplay. Video games are not only my passion, but also my profession, from game development to streaming and participating in gaming events.</p>
+                    <p>I am Zak, a LSBU graduate of Games Design and Development. My gaming preference leans towards PC games, although I also enjoy console games on occasion. My favourite genre is FPS Shooters, and I often stream or record my gameplay experiences. Video games are a major aspect of my life, from developing and playing to even watching and participating in gaming events or tournaments. As a result, I am present on various social media platforms.</p>
                 </div>
             </div>
         </section>
         
         <section class="contact-section" id="contact-section">
-            <h2>Contact Me</h2>
+         <h2>Contact Me</h2>
             <div class="side-by-side-container">
                 <div class="google-form">
-                    <iframe src="https://forms.gle/jm3C1xsjEE2Y6ox2A" frameborder="0" class="form-iframe">Loading...</iframe>
+                    <iframe src="https://forms.gle/jm3C1xsjEE2Y6ox2A" frameborder="0" marginheight="0" marginwidth="0" class="form-iframe">Loading...</iframe>
                 </div>
                 <div class="google-drive-pdf">
                     <iframe src="https://drive.google.com/file/d/13NqYJxsefmvohvhwJ5wohXNgVmlLcf5W/preview" class="pdf-iframe"></iframe>
@@ -56,10 +55,37 @@
                 <a href="https://www.instagram.com/nyanzak/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://open.spotify.com/user/jgv8a73doly3kj9xqnp8j9cdx"><i class="fa-brands fa-spotify"></i></a>
                 <a href="https://github.com/NyanZak"><i class="fa-brands fa-github"></i></a>
+
             </div>
         </section>
+        <style>
+            .social-icons a {
+                text-decoration: none; /* Removes underline */
+            }
+            .social-icons i {
+                font-size: 4rem;
+                margin: 0 10px;
+            }
+            .social-icons a[href*="x.com"] i {
+             color: #ffffff;
+            }
+            .social-icons a[href*="bsky.app"] i {
+             color: #1185FE;
+            }
+            .social-icons a[href*="youtube.com"] i {
+             color: #FF0033;
+            }
+            .social-icons a[href*="twitch.tv"] i {
+             color: #9146FF;
+            }
+            .social-icons a[href*="instagram.com"] i {
+             color: #BC26AA;
+            }
+            .social-icons a[href*="spotify.com"] i {
+             color: #1ED760;
+            }
+        </style>
     </main>
-
     <footer>
         <p>&copy; 2024 Zak Cronin. All rights reserved.</p>
     </footer>
