@@ -661,4 +661,8 @@ footer {
         font-size: 2rem !important;
         margin: 0 5px !important;
     }
+
+    .pdf-container {
+        padding-bottom: 100%; /* Adjust for taller aspect ratio on mobile */
+    }
 }
