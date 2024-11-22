@@ -280,14 +280,3 @@ footer {
     color: white; /* Ensure text color consistency */
     margin-top: 0.5em; /* Adjust top margin if necessary */
 }
-@media screen and (max-width: 768px) {
-    .social-icons i {
-        font-size: var(--fa-xs);
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .social-icons i {
-        font-size: var(--fa-2xs);
-    }
-}

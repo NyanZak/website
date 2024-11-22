@@ -16,6 +16,8 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 40px;
+    width: 100%;
+    box-sizing: border-box;
 }
 header img {
     height: 90%;
@@ -26,7 +28,10 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     gap: 1em;
+    width: 100%;
 }
 nav ul li {
     display: inline;
