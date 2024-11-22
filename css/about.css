@@ -55,12 +55,13 @@ main {
     align-items: center;
 }
 .social-media-section h2 {
-    margin-bottom: 40px; /* Adjust this value to increase spacing */
+    margin-bottom: 60px; /* Increased to add more spacing */
 }
 
 .social-icons {
-    margin-top: 10px; /* Additional fine-tuning if needed */
+    margin-top: 20px; /* Additional spacing if needed */
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
