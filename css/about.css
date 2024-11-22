@@ -289,3 +289,10 @@ footer {
     color: white; /* Ensure text color consistency */
     margin-top: 0.5em; /* Adjust top margin if necessary */
 }
+@media screen and (max-width: 768px) {
+    .social-icons i {
+        font-size: 2rem; /* Smaller size for mobile */
+        padding: 10px;   /* Reduced padding for spacing */
+        margin: 0 5px;   /* Adjust margin for spacing */
+    }
+}
