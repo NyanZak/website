@@ -622,7 +622,6 @@ footer {
 
     .google-drive-pdf .pdf-iframe {
         width: 100%; /* Let the iframe fill the available width */
-        height: 500px; /* Adjust height to maintain visibility */
     }
 
     .google-form iframe{
