@@ -55,16 +55,11 @@ main {
     align-items: center;
 }
 .social-media-section h2 {
-    border: 1px solid red; /* Debugging border for the "Follow Me" heading */
-    margin-bottom: 40px; /* Adjust spacing below heading */
+    margin-bottom: 20px; /* Adjust spacing below heading */
 }
-
 .social-icons {
-    border: 1px solid blue; /* Debugging border for the social icons container */
-    margin-top: 40px; /* Ensure enough spacing above the icons */
+    margin-top: 20px; /* Ensure enough spacing above the icons */
 }
-
-
 .fa {
     padding: 20px;
     font-size: 30px;
