@@ -210,6 +210,11 @@ main h1 {
     height: 500px;  /* Set the PDF iframe height on PC */
 }
 
+.google-form-iframe {
+    height: 500px;  /* Set the initial height for the form */
+}
+
+
 button {
 
     padding: 10px 20px;
@@ -554,7 +559,7 @@ footer {
         height: 50vh;  /* Make the PDF iframe a little smaller on mobile */
     }
 
-    .embed-item iframe[src*="google.com/forms"] {
-        height: 80vh;  /* Increase the height of the contact form */
+    .google-form-iframe {
+        height: 80vh;  /* Increase the height of the Google Form */
     }
 }
