@@ -250,6 +250,9 @@ footer {
     margin-bottom: 5px;
     margin-top: -25px;
 }
+.social-icons{
+    margin-top: 20px;
+}
 .side-by-side-container {
     display: flex;
     justify-content: space-between;
