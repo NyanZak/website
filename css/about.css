@@ -630,7 +630,7 @@ footer {
     }
 
     .social-icons i {
-        font-size: 2rem !important;
-        margin: 0 10px;
+        font-size: 1rem !important;
+        margin: 0 5px !important;
     }
 }
