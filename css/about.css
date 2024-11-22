@@ -627,10 +627,11 @@ footer {
         .google-form iframe{
             width: 600px;
         }
-        .fa {
-            font-size: 20px; /* Smaller font size for icons */
-            padding: 10px; /* Adjust padding for smaller icons */
-            width: 40px; /* Smaller icon width */
+        .social-icons i.fa {
+            font-size: 20px !important; /* Force a smaller size for all icons */
+            padding: 8px !important; /* Adjust padding to match icon size */
+            width: 40px !important; /* Force width of icons */
+            height: 40px !important; /* Ensure the height adjusts as well */
         }
     }   
 }   
