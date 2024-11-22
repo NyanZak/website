@@ -595,8 +595,8 @@ footer {
     }
 
     .profile-image {
-        max-width: 150px; /* Scale the width down */
-        max-height: 150px; /* Ensure height scales proportionally */
+        max-width: 200px; /* Scale the width down */
+        max-height: 200px; /* Ensure height scales proportionally */
     }
 
     .about-text {
