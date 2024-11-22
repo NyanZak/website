@@ -604,6 +604,7 @@ footer {
         margin-top: 20px; /* Add spacing between image and text */
         font-size: 16px; /* Adjust font size for smaller screens */
     }
+
     .about-text h2 {
         font-size: 20px; /* Smaller size for heading */
     }
@@ -613,23 +614,23 @@ footer {
         line-height: 1.4; /* Adjust line height for better readability */
     }
 
-    @media (max-width: 600px) {
-        .side-by-side-container {
-            flex-direction: column; /* Stack elements vertically */
-            gap: 20px; /* Add spacing between stacked elements */
-            margin: 0; /* Reset margins */
-        }
-    
-        .google-drive-pdf .pdf-iframe {
-            width: 100%; /* Let the iframe fill the available width */
-            height: 500px; /* Adjust height to maintain visibility */
-        }
-        .google-form iframe{
-            width: 600px;
-        }
-        .social-icons i {
-            font-size: 2rem !important;
-            margin: 0 10px;
-        }
-    }   
-}   
+    .side-by-side-container {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 20px; /* Add spacing between stacked elements */
+        margin: 0; /* Reset margins */
+    }
+
+    .google-drive-pdf .pdf-iframe {
+        width: 100%; /* Let the iframe fill the available width */
+        height: 500px; /* Adjust height to maintain visibility */
+    }
+
+    .google-form iframe{
+        width: 600px;
+    }
+
+    .social-icons i {
+        font-size: 2rem !important;
+        margin: 0 10px;
+    }
+}
