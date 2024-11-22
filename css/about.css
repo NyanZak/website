@@ -201,11 +201,11 @@ main {
     align-items: center;
 }
 .social-media-section {
-    margin-bottom: 10px; /* Reduce space below the section */
+    margin-bottom: 20px; /* Reduce space below the section */
 }
 
 .social-icons {
-    margin-bottom: 10px; /* Reduce space below the icons */
+    margin-bottom: 20px; /* Reduce space below the icons */
 }
 
 .fa {
