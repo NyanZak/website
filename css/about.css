@@ -554,20 +554,21 @@ footer {
 
 }
 
-.google-form iframe {
-
-    width: 200%;
-
-    height: 800px;
-
+.embed-wrapper {
+    display: flex; /* Arrange children in a row */
+    justify-content: space-between; /* Add space between embeds */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    gap: 20px; /* Add spacing between elements */
 }
 
-.google-drive-pdf .pdf-iframe {
-    
-    width: 210%;
-
-    height: 790px;
-
+/* Style for the iframes */
+.google-form iframe,
+.google-drive-pdf iframe {
+    flex: 1; /* Let each iframe take equal space */
+    min-width: 300px; /* Prevent shrinking too small */
+    max-width: 48%; /* Each iframe should take up to 48% of the width */
+    height: 600px; /* Set a default height */
+    border: none; /* Remove borders */
 }
 
 .about-section h1 {
@@ -610,12 +611,19 @@ footer {
         line-height: 1.4; /* Adjust line height for better readability */
     }
 
-    .side-by-side-container {
-        flex-direction: column; /* Stack elements vertically */
+    .embed-wrapper{
+        flex-direction: column;
         align-items: center;
-        gap: 20px; /* Add spacing between stacked elements */
-        margin: 0; /* Reset margins */
     }
+
+    .google-form iframe,
+    .google-drive-pdf iframe {
+        width: 90%; /* Take up most of the screen width */
+        max-width: 100%; /* Ensure it doesn’t overflow */
+        height: auto; /* Scale height proportionally */
+        min-height: 400px; /* Maintain readability */
+    }
+
     .social-icons i {
         font-size: 2rem !important;
         margin: 0 5px !important;
