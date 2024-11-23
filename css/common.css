@@ -18,8 +18,8 @@ header {
     height: 40px;
 }
 header img {
-    height: auto;
-    max-width: 3%;
+    height: 90%;
+    width: auto;
 }
 nav ul {
     list-style-type: none;
