@@ -19,7 +19,7 @@ header {
 }
 header img {
     height: auto;
-    width: auto;
+    max-width: 7%;
 }
 nav ul {
     list-style-type: none;
