@@ -42,7 +42,7 @@ main {
 
 .about header img {
     width: auto;  /* Let the browser adjust the width based on the natural aspect ratio */
-    max-width: 7%; /* Prevents it from becoming too large */
+    max-width: 7% !important; /* Prevents it from becoming too large */
     height: auto;  /* Keep aspect ratio intact */
 }
 
