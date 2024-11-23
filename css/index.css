@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('../images/nyancatbackground.jpg');
+    background-image: url('../images/nyancatbackground.jpg'); /* Fallback for older browsers */
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -12,6 +12,14 @@ body {
     min-height: 100vh;
     color: white;
 }
+
+/* Feature detection for browsers that support WebP */
+@supports (background-image: url('image.webp')) {
+    body {
+        background-image: url('../images/nyancatbackground.webp');
+    }
+}
+
 
 main {
     flex: 1;
